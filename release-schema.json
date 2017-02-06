@@ -20,7 +20,7 @@
         "id": {
           "title":"Identifier",
           "description": "A unique identifier for the enquiry.",
-          "type": ["string","null"],
+          "type": ["string","null"]
         },
         "date": {
           "type": "string",
@@ -57,12 +57,12 @@
         "relatedItem":{
             "title":"Related item",
             "description":"If this question relates to a specific line-item, this field contains the line-item identifier.",
-            "type": ["string","null"],
+            "type": ["string","null"]
         },
         "relatedLot":{
             "title":"Related lot",
             "description":"Where lots are used, if this question relates to a specific lot, this field contains the lot identifier.",
-            "type": ["string","null"],
+            "type": ["string","null"]
         }
       }
     }
