@@ -30,7 +30,7 @@
         },
         "author": {
           "title":"Question author",
-          "description": "The identifier and name of the party asking this question. Questioners may be listed in the parties array with a role of 'enquirer'. Procurement policies vary on whether or not the identity of those asking questions should be disclosed, or at which stage this information may be disclosed.",
+          "description": "The identifier and name of the party asking this question. Questioners may be listed in the parties array with a role of 'enquirer'. Procurement policies vary on whether or not the identity of those asking questions should be disclosed, or at which stage this information may be disclosed. When the identity of the questioner cannot be disclosed leave the author section blank. Display systems should interpret this as an anonymous question.",
           "$ref": "#/definitions/Organization"
         },
         "title": {
@@ -62,6 +62,11 @@
         "relatedLot":{
             "title":"Related lot",
             "description":"Where lots are used, if this question relates to a specific lot, this field contains the lot identifier.",
+            "type": ["string","null"]
+        },
+        "threadID":{
+            "title":"Thread identifier",
+            "description":"If this question and answer forms part of a discussion thread (e.g. the question is a follow up to a previous answer) an optional thread identifier can be used to associate together multiple enquiries.",
             "type": ["string","null"]
         }
       }
