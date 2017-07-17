@@ -32,7 +32,7 @@ Example:
 
 Supporting documents with clarifications, or a full document containing answers to questions can be included in the ```tender/documents``` array with a ```documentType``` of 'clarifications'. 
 
-Where the answers to a question are only avaible in attached documents, an ```answer``` value such as 'Consult section N of "%document name%" in the documents section' may be entered to allow analysts of the data to identify that an answer to this question has been provided. 
+Where the answers to a question are only available in attached documents, an ```answer``` value such as 'Consult section N of "%document name%" in the documents section' may be entered to allow analysts of the data to identify that an answer to this question has been provided. 
 
 When a system allow a discussion format, where each answer can be followed by a further clarification question, the ```threadID``` property can be used to link together multiple entries in the ```enquiries``` array.
 
