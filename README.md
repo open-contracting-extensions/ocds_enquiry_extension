@@ -60,3 +60,7 @@ We recommend that publishers provide question answers as plain text, or with min
    :extension: enquiries
    :exclude_definitions: Tender
 ```
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
