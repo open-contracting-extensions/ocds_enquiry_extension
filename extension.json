@@ -11,5 +11,8 @@
   ],
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_enquiry_extension"
-  }
+  },
+  "codelists": [
+    "+partyRoles.csv"
+  ]
 }
