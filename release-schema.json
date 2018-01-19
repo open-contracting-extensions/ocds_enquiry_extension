@@ -29,7 +29,10 @@
           ]
         },
         "date": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "title": "Date",
           "description": "The date the enquiry was received or processed.",
           "format": "date-time"
