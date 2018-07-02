@@ -10,7 +10,7 @@
     "1.1"
   ],
   "documentationUrl": {
-    "en": "https://github.com/open-contracting/ocds_enquiry_extension"
+    "en": "http://standard.open-contracting.org/1.1/en/extensions/enquiries/"
   },
   "codelists": [
     "+partyRole.csv"
