@@ -5,13 +5,12 @@
   "description": {
     "en": "The enquiries extension can be used to record questions raised during a contracting process, and the answers provided."
   },
-  "compatibility": [
-    "1.0",
-    "1.1"
-  ],
   "documentationUrl": {
     "en": "http://standard.open-contracting.org/1.1/en/extensions/enquiries/"
   },
+  "compatibility": [
+    "1.1"
+  ],
   "codelists": [
     "+partyRole.csv"
   ]
