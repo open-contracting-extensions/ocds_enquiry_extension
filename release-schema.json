@@ -4,14 +4,12 @@
       "properties": {
         "enquiries": {
           "title": "Enquiries",
-          "type": [
-            "array",
-            "null"
-          ],
+          "type": "array",
           "description": "Questions sent to the procuring entity, and the answers given",
           "items": {
             "$ref": "#/definitions/Enquiry"
-          }
+          },
+          "wholeListMerge": true
         }
       }
     },

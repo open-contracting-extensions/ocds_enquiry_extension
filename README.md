@@ -66,6 +66,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### v1.1.4
+
+* Set `wholeListMerge` on `Tender.enquiries`
+
 ### v1.1.3
 
 * Use `OrganizationReference` instead of `Organization` for `Enquiry.author`
