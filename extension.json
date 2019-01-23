@@ -6,7 +6,7 @@
     "en": "The enquiries extension can be used to record questions raised during a contracting process, and the answers provided."
   },
   "documentationUrl": {
-    "en": "http://standard.open-contracting.org/1.1/en/extensions/enquiries/"
+    "en": "https://extensions.open-contracting.org/en/extensions/enquiries/"
   },
   "compatibility": [
     "1.1"
