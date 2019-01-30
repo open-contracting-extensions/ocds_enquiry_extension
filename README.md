@@ -52,14 +52,6 @@ This approach will enable third-party applications to watch for releases that pr
 
 We recommend that publishers provide question answers as plain text, or with minimal HTML markup (paragraphs and line-breaks), and that consuming applications parse text appropriately to format it for readability (e.g. replace line-breaks with paragraph breaks in HTML).
 
-## Reference
-
-```eval_rst
-.. extensiontable::
-   :extension: enquiries
-   :definitions: Enquiry
-```
-
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
