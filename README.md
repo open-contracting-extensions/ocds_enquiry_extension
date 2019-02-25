@@ -10,21 +10,23 @@ Example:
 
 ```json
 {
-  "tender":{
-    "enquiries":[{
-      "id":"Q1",
-      "date":"2017-01-22T14:55:00Z",
-      "author":{
-        "name":"Open Data Services Co-op",
-        "id":"GB-COH-09506232"
-      },
-      "title":"Variations of timeline accepted?",
-      "description":"The tender specifies delivery of Item 1 by end of March 2017. Will alternative proposals for the timeline be considered?",
-      "dateAnswered":"2017-02-05T09:00:00Z",
-      "answer":"There is a hard deadline of 15th April 2017. All proposals must be for delivery of Item 1 by this date.",
-      "relatedItem":"1",
-      "threadID":"1"
-    }]
+  "tender": {
+    "enquiries": [
+      {
+        "id": "Q1",
+        "date": "2017-01-22T14:55:00Z",
+        "author": {
+          "name": "Open Data Services Co-op",
+          "id": "GB-COH-09506232"
+        },
+        "title": "Variations of timeline accepted?",
+        "description": "The tender specifies delivery of Item 1 by end of March 2017. Will alternative proposals for the timeline be considered?",
+        "dateAnswered": "2017-02-05T09:00:00Z",
+        "answer": "There is a hard deadline of 15th April 2017. All proposals must be for delivery of Item 1 by this date.",
+        "relatedItem": "1",
+        "threadID": "1"
+      }
+    ]
   }
 }
 ```
@@ -57,6 +59,10 @@ We recommend that publishers provide question answers as plain text, or with min
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### v1.1.4
+
+* Remove Sphinx directives from readme
 
 ### v1.1.3
 
