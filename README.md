@@ -31,7 +31,7 @@ Example:
 }
 ```
 
-Supporting documents with clarifications, or a full document containing answers to questions can be included in the `tender/documents` array with a `documentType` of 'clarifications'.
+Supporting documents with clarifications, or a full document containing answers to questions can be included in the `tender.documents` array with a `documentType` of 'clarifications'.
 
 Where the answers to a question are only available in attached documents, an `answer` value such as 'Consult section N of "%document name%" in the documents section' may be entered to allow analysts of the data to identify that an answer to this question has been provided.
 
@@ -47,8 +47,8 @@ The `relatedItem` and `relatedLot` properties are available for use when questio
 
 Where possible, the recommended approach is to:
 
-* Make release with a `tenderUpdate` release tag for every new question or batch of questions received, providing an enquiries array with each of the questions in;
-* Make a release with a `tenderUpdate` release tag when the answers to the questions are provided, updating the earlier enquiries array so each entry now contains both a question and an answer;
+* Make release with a 'tenderUpdate' release tag for every new question or batch of questions received, providing an enquiries array with each of the questions in;
+* Make a release with a 'tenderUpdate' release tag when the answers to the questions are provided, updating the earlier enquiries array so each entry now contains both a question and an answer;
 
 This approach will enable third-party applications to watch for releases that provide answers to questions, and will support procurement monitors in reviewing the way in which questions are being answered.
 
