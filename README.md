@@ -60,6 +60,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### Unreleased
+
+* Review normative and non-normative words
+
 ### v1.1.4
 
 * Remove Sphinx directives from readme
