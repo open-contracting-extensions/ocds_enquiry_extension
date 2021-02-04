@@ -62,7 +62,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### Unreleased
 
-* Merge `+partyRole.csv` codelist into the standard
+* Remove the `+partyRole.csv` codelist, whose codes already exist in OCDS 1.1
 
 ### v1.1.5
 
