@@ -11,9 +11,6 @@
   "compatibility": [
     "1.1"
   ],
-  "codelists": [
-    "+partyRole.csv"
-  ],
   "schemas": [
     "release-schema.json"
   ],

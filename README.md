@@ -60,6 +60,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### Unreleased
+
+* Remove the `+partyRole.csv` codelist, whose codes already exist in OCDS 1.1
+
 ### v1.1.5
 
 * Review normative and non-normative words
