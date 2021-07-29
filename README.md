@@ -35,7 +35,7 @@ Supporting documents with clarifications, or a full document containing answers 
 
 Where the answers to a question are only available in attached documents, an `answer` value such as 'Consult section N of "%document name%" in the documents section' may be entered to allow analysts of the data to identify that an answer to this question has been provided.
 
-When a system allows a discussion format, where each answer can be followed by a further clarification question, the `threadID` property can be used to link together multiple entries in the `enquiries` array.
+When a system allows a discussion format, where each answer can be followed by a further clarification question, the `threadID` field can be used to link together multiple entries in the `enquiries` array.
 
 ## Usage guidance
 
@@ -43,7 +43,7 @@ Implementations may vary on the amount of enquiry information they provide, and 
 
 Some publishers may omit the identity of the question author to protect confidentiality of enquirers, or may anonymize this information (e.g. simply putting the author name as 'Organization 1' or 'Organization 2' so that it is possible to see questions from the same organization, but not to know the identity of that organization.)
 
-The `relatedItem` and `relatedLot` properties are available for use when questions can be asked in relation to a specific lot or item.
+The `relatedItem` and `relatedLot` fields are available for use when questions can be asked in relation to a specific lot or item.
 
 Where possible, the recommended approach is to:
 
