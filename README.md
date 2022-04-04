@@ -63,7 +63,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### Unreleased
 
 * Remove the `+partyRole.csv` codelist, whose codes already exist in OCDS 1.1
-* Make `Enquiry.id` a required field for identifier merge
+* Make `Enquiry.id` required so that enquiries are merged by identifier
 
 ### v1.1.5
 
