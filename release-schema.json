@@ -20,13 +20,15 @@
       "type": "object",
       "title": "Enquiry",
       "description": "A question related to this contracting process, generally sent during the enquiry period.",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "Identifier",
           "description": "A unique identifier for the enquiry.",
           "type": [
-            "string",
-            "null"
+            "string"
           ]
         },
         "date": {
