@@ -5,8 +5,7 @@
         "enquiries": {
           "title": "Enquiries",
           "type": [
-            "array",
-            "null"
+            "array"
           ],
           "description": "Questions sent to the procuring entity, and the answers given",
           "items": {
