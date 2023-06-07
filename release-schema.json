@@ -37,7 +37,7 @@
         },
         "author": {
           "title": "Question author",
-          "description": "The party asking this question. The corresponding entry in the `parties` array should have 'enquirer' in its `roles` array. Procurement policies vary on whether or not the identity of those asking questions is disclosed, or at which stage this information is disclosed.",
+          "description": "The organization asking this question. The corresponding entry in the `parties` array should have 'enquirer' in its `roles` array.",
           "$ref": "#/definitions/OrganizationReference"
         },
         "title": {
