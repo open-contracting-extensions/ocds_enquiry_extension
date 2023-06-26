@@ -37,7 +37,7 @@ Where the answers to a question are only available in attached documents, an `an
 
 When a system allows a discussion format, where each answer can be followed by a further clarification question, the `threadID` field can be used to link together multiple entries in the `enquiries` array.
 
-## Usage
+## Guidance
 
 Implementations may vary on the amount of enquiry information they provide, and when it is provided.
 
