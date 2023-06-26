@@ -4,8 +4,8 @@
       "properties": {
         "enquiries": {
           "title": "Enquiries",
-          "type": "array",
           "description": "Questions sent to the procuring entity, and the answers given",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Enquiry"
           },
