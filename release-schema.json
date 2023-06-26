@@ -14,9 +14,9 @@
       }
     },
     "Enquiry": {
-      "type": "object",
       "title": "Enquiry",
       "description": "A question related to this contracting process, generally sent during the enquiry period.",
+      "type": "object",
       "required": [
         "id"
       ],
@@ -27,12 +27,12 @@
           "type": "string"
         },
         "date": {
+          "title": "Date",
+          "description": "The date the enquiry was received or processed.",
           "type": [
             "string",
             "null"
           ],
-          "title": "Date",
-          "description": "The date the enquiry was received or processed.",
           "format": "date-time"
         },
         "author": {
