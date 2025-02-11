@@ -62,7 +62,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### Unreleased
 
-* Remove the `+partyRole.csv` codelist, whose codes already exist in OCDS 1.1
+* Remove the `+partyRole.csv` codelist patch, whose codes already exist in OCDS 1.1
 * Make `Enquiry.id` required so that enquiries are merged by identifier
 * Make `Tender.enquiries` non-nullable
 
